@@ -1,9 +1,9 @@
-; Скрипт Inno Setup для сборки инсталлятора ClenerDev
-#define MyAppName "ClenerDev"
+; РЎРєСЂРёРїС‚ Inno Setup РґР»СЏ СЃР±РѕСЂРєРё РёРЅСЃС‚Р°Р»Р»СЏС‚РѕСЂР° ClenerDev
+#define MyAppName "CleanerDev"
 #define MyAppVersion "1.0.0"
 #define MyAppPublisher "hasipii"
-#define MyAppURL "https://github.com/hasipii/clenerdev"
-#define MyAppExeName "ClenerDev.exe"
+#define MyAppURL "https://github.com/hasipii/CleanerDev"
+#define MyAppExeName "CleanerDev.exe"
 
 [Setup]
 AppId={{E14674BC-66C2-4DB1-995C-622F439BD57A}
@@ -31,13 +31,13 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-; Исполняемый файл из папки dist (после pyinstaller)
+; РСЃРїРѕР»РЅСЏРµРјС‹Р№ С„Р°Р№Р» РёР· РїР°РїРєРё dist (РїРѕСЃР»Рµ pyinstaller)
 Source: "dist\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-; Ресурсы и медиа
+; Р РµСЃСѓСЂСЃС‹ Рё РјРµРґРёР°
 Source: "icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "icon.png"; DestDir: "{app}"; Flags: ignoreversion
 Source: "mup.gif"; DestDir: "{app}"; Flags: ignoreversion
-; Дополнительные гифки, если они лежат рядом
+; Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РіРёС„РєРё, РµСЃР»Рё РѕРЅРё Р»РµР¶Р°С‚ СЂСЏРґРѕРј
 Source: "mup2.gif"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
 Source: "mup3.gif"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
 
