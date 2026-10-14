@@ -30,7 +30,7 @@ ClenerDev находит эти залежи за секунды, группир
 
 Устанавливать Python и настраивать окружение не требуется.
 
-Перейдите во вкладку [Releases](https://github.com/hasipii/ClenerDev/releases) и скачайте свежую версию:
+Перейдите во вкладку [Releases](https://github.com/hasipii/ClenerDev/releases\tag) и скачайте свежую версию:
 
 ---
 
